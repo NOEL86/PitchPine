@@ -1,8 +1,16 @@
 .titleMain {
 color: rgb(99, 129, 95);
+padding-left: 5px;
+padding-right: 5px;
 }
 .homePage {
-   
-  
-   
+   padding-top: 3%;
+width: 100%;
+
 }
+/* .dosis-<uniquifier> {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */

@@ -20,8 +20,11 @@ const ProductList = () => {
     return (
         // <Row >
         // <Col lg={4} m={4} sm={1} >
-        
-        <div className='card-group'> 
+        <div>
+            <Row>
+                <Col >
+            <div className='card-group'> 
+
             {/* {productList.map(product => (
                 <ProductCard key={product._id} product={product} />
             ))} */}
@@ -31,9 +34,10 @@ const ProductList = () => {
                 ))}
       
             
+            </div>
+            </Col>
+            </Row>
         </div>
-        // </Col>
-        // </Row>
     );
 };
 

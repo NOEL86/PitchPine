@@ -7,7 +7,7 @@ import Footer from '../Components/Footer.jsx';
 const Home = () => (
     <div className='homePage'>
         <Row>
-        <h1 className='intro d-flex justify-content-center'>Welcome to <span className='titleMain'> Pitch Pine </span>  Company</h1>
+        <h1 className='intro d-flex justify-content-center'>Welcome to <span className='titleMain'>Pitch Pine</span> Company</h1>
         </Row>
         <Row>
         <Col>
@@ -17,9 +17,9 @@ const Home = () => (
 
         </Row>
      <Row>
-        <Col>
+  
         <Footer/>
-        </Col>
+
      </Row>
   
 

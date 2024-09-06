@@ -1,6 +1,6 @@
 .navbar {
-    background-color: rgb(99, 129, 95) !important;
-    /* margin-bottom: 5% !important; */
+    /* background-color: rgb(99, 129, 95); */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01), 0 10px 30px rgba(0, 0, 0, .3);
 }
 .nav-item {
     padding-right: 5px;
@@ -16,8 +16,12 @@ a {
     text-decoration: none !important;
 }
 .dropdown-menu.show {
-    background-color: rgb(217, 210, 194);
+    background-color: rgb(99, 129, 95);
+   
 } 
 .footer {
-    
+    background-color: rgb(99, 129, 95) !important;
+    /* color: white !important; */
+    display: flex !important;
+    justify-content: center !important;
 }

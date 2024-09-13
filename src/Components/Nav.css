@@ -21,7 +21,12 @@ a {
 } 
 .footer {
     background-color: rgb(99, 129, 95) !important;
-    /* color: white !important; */
-    display: flex !important;
     justify-content: center !important;
+  
+   /* Adjust padding to fit content */
+}
+
+.productListContent {
+    flex: 1;
+    margin-bottom: 10%;
 }

@@ -1,16 +1,22 @@
 import React from 'react';
 
 
-const ProductCard = (props) => (
+const ProductCard = (props) => {
 
-    <div className="card" Style="width: 18rem;">
+  return (
+
+    <div className="card" Style="max-width: 15rem;"  
+    alt={props.title} 
+    id={props.id}
+    onClick={() => props.handleClick(props.id)} >
     <img className="card-img-top" src="../images/beCurious.jpeg" alt="Card image cap"/>
   <div className="card-body">
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p className="card-text">{props.title}</p>
   </div>
 
 </div>
-);
+  );
+};
     
 export default ProductCard;
 
